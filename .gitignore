@@ -1,0 +1,7 @@
+# File formats
+*.pdf
+*.docx
+.DS_Store
+
+# Folders
+TD/*
