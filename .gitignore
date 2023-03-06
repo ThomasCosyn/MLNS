@@ -2,6 +2,7 @@
 *.pdf
 *.docx
 .DS_Store
+*.pyc
 
 # Folders
 TD/*
