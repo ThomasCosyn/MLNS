@@ -17,6 +17,7 @@ def page_rank(graph, nb_iterations = 50, verbose = False):
         node_values = new_values
 
     return node_values
+
 def update_all_values(graph, node_values):
     """
     Takes as input a graph, the node values associated with the graph

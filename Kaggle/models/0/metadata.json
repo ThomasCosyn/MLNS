@@ -1,0 +1,6 @@
+{
+    "features" : ["node_information", "pagerank_sum", "pagerank_diff"],
+    "model" : "Logistic_Regression",
+    "local_accuracy" : 0.58,
+    "kaggle_score" : 0.59198
+}
