@@ -1,0 +1,7 @@
+{
+    "features" : ["node_information", "pagerank_sum", "pagerank_diff", "max_flow"],
+    "model" : "Logistic_Regression",
+    "scaler" : "StandardScaler",
+    "local_accuracy" : 0.67857,
+    "kaggle_score" : 0
+}
