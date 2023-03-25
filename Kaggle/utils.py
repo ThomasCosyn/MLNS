@@ -33,6 +33,18 @@ def katzB_matrix(graph, beta):
 
     return M, nodes_index, nodes_index_reverse
 
+def shortest_path(graph, node1, node2):
+
+    cutoff = 2
+    while cutoff < 20:
+        sps = list(nx.all_simple_paths(graph, node1, node2, cutoff = cutoff))
+        for path in sps:
+            if len(path) > 2:
+                return len(path)
+        cutoff += 1
+    return 20
+
+
 def text_to_graph(filepath):
     """
     Takes a txt filepath as input and returns a nx graph computed from the data contained in the txt

@@ -1,0 +1,8 @@
+{
+    "features" : ["node_information", "pagerank_sum", "pagerank_diff", "max_flow", "common_neighbors",
+                "degree_sum", "degree_diff", "jaccard", "adamic_adar", "katzB11", "katzB53", "katzB87"],
+    "model" : "Logistic_Regression",
+    "local_accuracy" : 0.76428,
+    "kaggle_score" : 0.73199
+
+}
