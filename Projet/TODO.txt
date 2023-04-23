@@ -1,4 +1,0 @@
-- Give Wikipedia URL link and scrap (optionnal)
-- Enter title and text, create mask and initialize
-- Update list : DONE
-- Find best word giving context : DONE
